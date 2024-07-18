@@ -1,0 +1,690 @@
+Netlist
+
+Exported from rcbussbc.sch at 18.07.24 14:19
+
+EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
+
+Net      Part     Pad      Pin        Sheet
+
+!BUSACK  X1       44       !BUSACK    1
+         X3       2        2          1
+
+!BUSREQ  IC10     3        I2         1
+         IC7      25       !BUSREQ    1
+         X1       48       !BUSREQ    1
+
+!CTC_CE  IC16     16       !CE        1
+         IC8      23       I/O_10     1
+
+!DBUF    IC10     16       I/O_5      1
+         IC4      19       G          1
+
+!DTRA    IC17     16       !DTRA      1
+         R1       1        1          2
+
+!DTRB    IC17     25       !DTRB      1
+         R2       1        1          2
+
+!HALT    IC3      14       B5         1
+         X1       46       !HALT      1
+
+!IHALT   IC3      6        A5         1
+         IC7      18       !HALT      1
+
+!IIODI   IC8      14       I/O_1      1
+         X6       2        2          2
+
+!IIORQ   IC10     9        I8         1
+         IC16     10       !IORQ      1
+         IC17     36       !IORQ      1
+         IC3      2        A1         1
+         IC7      20       !IORQ      1
+         IC8      13       IN_10      1
+
+!IM1     IC10     7        I6         1
+         IC16     14       !M1        1
+         IC17     8        !M1        1
+         IC3      7        A6         1
+         IC7      27       !M1        1
+         IC8      9        IN_7       1
+
+!IMEMDI  IC10     2        I1         1
+         X5       2        2          2
+
+!IMREQ   IC10     5        I4         1
+         IC3      5        A4         1
+         IC7      19       !MREQ      1
+
+!INT     IC16     12       !INT       1
+         IC17     5        !INT       1
+         IC7      16       !INT       1
+         X1       43       !INT       1
+
+!IODI    X1       75       USR2/!IODI 1
+         X6       1        1          2
+
+!IORQ    IC3      18       B1         1
+         X1       51       !IORQ      1
+
+!IRD     IC10     8        I7         1
+         IC13     24       OE#        1
+         IC16     6        !RD        1
+         IC17     32       !RD        1
+         IC3      3        A2         1
+         IC7      21       !RD        1
+         IC8      11       IN_9       1
+         IC9      24       OE#        1
+
+!IRFSH   IC3      8        A7         1
+         IC7      28       !RFSH      1
+
+!IWR     IC10     14       I/O_3      1
+         IC13     31       WE#        1
+         IC3      4        A3         1
+         IC7      22       !WR        1
+         IC8      10       IN_8       1
+         IC9      29       WE#        1
+
+!M1      IC3      13       B6         1
+         X1       37       !M1        1
+
+!MEMDI   X1       76       USR6/!MEMDI 1
+         X5       1        1          2
+
+!MREQ    IC3      15       B4         1
+         X1       45       !MREQ      1
+
+!NMI     IC7      17       !NMI       1
+         X1       52       !NMI       1
+
+!PGEN_WR IC15     3        CLK        1
+         IC8      21       I/O_8      1
+
+!PG_WR   IC11     12       GW         1
+         IC14     12       GW         1
+         IC8      20       I/O_7      1
+
+!RAM_CS  IC10     18       I/O_7      1
+         IC9      22       CE#        1
+
+!RD      IC3      17       B2         1
+         X1       49       !RD        1
+
+!RESET   IC15     1        CLR        1
+         IC16     17       !RESET     1
+         IC17     21       !RESET     1
+         IC6      1        CLR        2
+         IC7      26       !RESET     1
+         X1       39       !RESET     1
+
+!RFSH    IC3      12       B7         1
+         X1       38       !RFSH      1
+
+!ROM_CS  IC10     19       I/O_8      1
+         IC13     22       CE#        1
+
+!RTC_RD  IC12     1        OE         2
+         IC8      18       I/O_5      1
+
+!RTC_WR  IC6      9        CLK        2
+         IC8      19       I/O_6      1
+
+!RTSA    IC17     17       !RTSA      1
+         R8       1        1          2
+
+!RTSB    IC17     24       !RTSB      1
+         R9       1        1          2
+
+!SIO_CE  IC17     35       !CE        1
+         IC8      22       I/O_9      1
+
+!WAIT    IC7      24       !WAIT      1
+         X1       50       !WAIT      1
+
+!WR      IC3      16       B3         1
+         X1       47       !WR        1
+
+5P       C1       1        +          2
+         C10      1        +          2
+         C11      1        +          2
+         C12      1        +          2
+         C13      1        +          2
+         C14      1        +          2
+         C15      1        +          2
+         C16      1        +          2
+         C2       1        +          2
+         C3       1        +          2
+         C4       1        +          2
+         C5       1        +          2
+         C6       1        +          2
+         C7       1        +          2
+         C8       1        +          2
+         C9       1        +          2
+         IC1      20       VCC        2
+         IC10     20       VCC        1
+         IC11     16       VCC        2
+         IC12     14       VCC        2
+         IC13     32       VDD        1
+         IC14     16       VCC        2
+         IC15     10       PRE        2
+         IC15     13       CLR        2
+         IC15     14       VCC        2
+         IC15     4        PRE        1
+         IC16     24       VCC        2
+         IC17     9        VCC        2
+         IC2      20       VCC        2
+         IC3      20       VCC        2
+         IC3      9        A8         1
+         IC4      20       VCC        2
+         IC5      1        VCC2       2
+         IC6      16       VCC        2
+         IC7      11       VCC        2
+         IC8      24       VCC        1
+         IC9      32       VCC        1
+         JP100    1        1          2
+         JP101    1        1          2
+         R7       2        2          2
+         X1       35       5P         1
+         X1       36       5P         1
+         Y1       8        5P         2
+
+5PR      R7       1        1          2
+         X5       3        3          2
+         X6       3        3          2
+         X9       3        3          2
+
+A0       IC2      18       B1         1
+         X1       31       A0         1
+
+A1       IC2      17       B2         1
+         X1       29       A1         1
+
+A2       IC2      16       B3         1
+         X1       27       A2         1
+
+A3       IC2      15       B4         1
+         X1       25       A3         1
+
+A4       IC2      14       B5         1
+         X1       23       A4         1
+
+A5       IC2      13       B6         1
+         X1       21       A5         1
+
+A6       IC2      12       B7         1
+         X1       19       A6         1
+
+A7       IC2      11       B8         1
+         X1       17       A7         1
+
+A8       IC1      18       B1         1
+         X1       15       A8         1
+
+A9       IC1      17       B2         1
+         X1       13       A9         1
+
+A10      IC1      16       B3         1
+         X1       11       A10        1
+
+A11      IC1      15       B4         1
+         X1       9        A11        1
+
+A12      IC1      14       B5         1
+         X1       7        A12        1
+
+A13      IC1      13       B6         1
+         X1       5        A13        1
+
+A14      IC1      12       B7         1
+         X1       3        A14        1
+
+A15      IC1      11       B8         1
+         X1       1        A15        1
+
+ABDIR    IC1      1        DIR        1
+         IC12     12       I          1
+         IC12     9        I          1
+         IC2      1        DIR        1
+         IC3      1        DIR        1
+         IC7      23       !BUSACK    1
+
+BAO      X1       77       USR3/BAO   1
+         X2       2        2          1
+
+CLK      IC16     15       CLK        1
+         IC17     20       CLK        1
+         IC7      6        CLK        1
+         X1       41       CLK        1
+         X11      1        1          2
+         X12      1        1          2
+         X13      1        1          2
+         X4       2        2          2
+
+CLK2     X1       42       CLK2       1
+         X11      3        3          2
+         X12      3        3          2
+
+CLKA     IC17     13       !RXCA      1
+         IC17     14       !TXCA      1
+         X12      2        2          2
+
+CLKB     IC17     27       !TXCB      1
+         IC17     28       !RXCB      1
+         X11      2        2          2
+
+D0       IC4      11       B8         1
+         X1       53       D0         1
+
+D1       IC4      12       B7         1
+         X1       55       D1         1
+
+D2       IC4      13       B6         1
+         X1       57       D2         1
+
+D3       IC4      14       B5         1
+         X1       59       D3         1
+
+D4       IC4      15       B4         1
+         X1       61       D4         1
+
+D5       IC4      16       B3         1
+         X1       63       D5         1
+
+D6       IC4      17       B2         1
+         X1       65       D6         1
+
+D7       IC4      18       B1         1
+         X1       67       D7         1
+
+DDIR     IC10     17       I/O_6      1
+         IC4      1        DIR        1
+
+GND      C1       2        -          2
+         C10      2        -          2
+         C11      2        -          2
+         C12      2        -          2
+         C13      2        -          2
+         C14      2        -          2
+         C15      2        -          2
+         C16      2        -          2
+         C2       2        -          2
+         C3       2        -          2
+         C4       2        -          2
+         C5       2        -          2
+         C6       2        -          2
+         C7       2        -          2
+         C8       2        -          2
+         C9       2        -          2
+         IC1      10       GND        2
+         IC1      19       G          1
+         IC10     10       GND        1
+         IC11     8        GND        2
+         IC12     10       OE         1
+         IC12     13       OE         1
+         IC12     7        GND        2
+         IC13     16       VSS        1
+         IC14     8        GND        2
+         IC15     11       CLK        2
+         IC15     12       D          2
+         IC15     7        GND        2
+         IC16     5        GND        2
+         IC17     18       !CTSA      1
+         IC17     19       !DCDA      1
+         IC17     22       !DCDB      1
+         IC17     23       !CTSB      1
+         IC17     31       GND        2
+         IC2      10       GND        2
+         IC2      19       G          1
+         IC3      10       GND        2
+         IC3      19       G          1
+         IC4      10       GND        2
+         IC5      4        GND        2
+         IC6      13       D5         2
+         IC6      14       D6         2
+         IC6      8        GND        2
+         IC7      29       GND        2
+         IC8      12       GND        1
+         IC9      16       VSS        1
+         RN1      1        1          2
+         U1       1        1          2
+         U1       2        2          2
+         X1       33       GND        1
+         X1       34       GND        1
+         X14      1        1          2
+         X8       1        1          2
+         Y1       4        GND        2
+
+IA0      IC11     14       WA         1
+         IC13     12       A0         1
+         IC14     14       WA         1
+         IC16     18       !CS0       1
+         IC17     33       C/!D       1
+         IC2      2        A1         1
+         IC7      30       A0         1
+         IC8      8        IN_6       1
+         IC9      12       A0         1
+
+IA1      IC11     13       WB         1
+         IC13     11       A1         1
+         IC14     13       WB         1
+         IC16     19       !CS1       1
+         IC17     34       B/!A       1
+         IC2      3        A2         1
+         IC7      31       A1         1
+         IC8      7        IN_5       1
+         IC9      11       A1         1
+
+IA2      IC13     10       A2         1
+         IC2      4        A3         1
+         IC7      32       A2         1
+         IC8      6        IN_4       1
+         IC9      10       A2         1
+
+IA3      IC13     9        A3         1
+         IC2      5        A4         1
+         IC7      33       A3         1
+         IC8      5        IN_3       1
+         IC9      9        A3         1
+
+IA4      IC13     8        A4         1
+         IC2      6        A5         1
+         IC7      34       A4         1
+         IC8      4        IN/PD      1
+         IC9      8        A4         1
+
+IA5      IC13     7        A5         1
+         IC2      7        A6         1
+         IC7      35       A5         1
+         IC8      3        IN_2       1
+         IC9      7        A5         1
+
+IA6      IC13     6        A6         1
+         IC2      8        A7         1
+         IC7      36       A6         1
+         IC8      2        IN_1       1
+         IC9      6        A6         1
+
+IA7      IC13     5        A7         1
+         IC2      9        A8         1
+         IC7      37       A7         1
+         IC8      1        CLK/IN     1
+         IC9      5        A7         1
+
+IA8      IC1      2        A1         1
+         IC13     27       A8         1
+         IC7      38       A8         1
+         IC9      27       A8         1
+
+IA9      IC1      3        A2         1
+         IC13     26       A9         1
+         IC7      39       A9         1
+         IC9      26       A9         1
+
+IA10     IC1      4        A3         1
+         IC13     23       A10        1
+         IC7      40       A10        1
+         IC9      23       A10        1
+
+IA11     IC1      5        A4         1
+         IC13     25       A11        1
+         IC7      1        A11        1
+         IC9      25       A11        1
+
+IA12     IC1      6        A5         1
+         IC13     4        A12        1
+         IC7      2        A12        1
+         IC9      4        A12        1
+
+IA13     IC1      7        A6         1
+         IC13     28       A13        1
+         IC7      3        A13        1
+         IC9      28       A13        1
+
+IA14     IC1      8        A7         1
+         IC11     5        RA         1
+         IC14     5        RA         1
+         IC7      4        A14        1
+
+IA15     IC1      9        A8         1
+         IC11     4        RB         1
+         IC14     4        RB         1
+         IC7      5        A15        1
+
+IBAO     IC10     11       I9/!OE     1
+         IC12     8        O          1
+         X2       1        1          1
+
+ID0      IC11     15       D1         1
+         IC12     3        O          2
+         IC13     13       DQ0        1
+         IC15     2        D          1
+         IC16     25       D0         1
+         IC17     40       D0         1
+         IC4      9        A8         1
+         IC7      14       D0         1
+         IC9      13       DQ0        1
+
+ID1      IC11     1        D2         1
+         IC13     14       DQ1        1
+         IC16     26       D1         1
+         IC17     1        D1         1
+         IC4      8        A7         1
+         IC7      15       D1         1
+         IC9      14       DQ1        1
+
+ID2      IC11     2        D3         1
+         IC13     15       DQ2        1
+         IC16     27       D2         1
+         IC17     39       D2         1
+         IC4      7        A6         1
+         IC7      12       D2         1
+         IC9      15       DQ2        1
+
+ID3      IC11     3        D4         1
+         IC13     17       DQ3        1
+         IC16     28       D3         1
+         IC17     2        D3         1
+         IC4      6        A5         1
+         IC7      8        D3         1
+         IC9      17       DQ3        1
+
+ID4      IC13     18       DQ4        1
+         IC14     15       D1         1
+         IC16     1        D4         1
+         IC17     38       D4         1
+         IC4      5        A4         1
+         IC6      3        D1         2
+         IC7      7        D4         1
+         IC9      18       DQ4        1
+
+ID5      IC13     19       DQ5        1
+         IC14     1        D2         1
+         IC16     2        D5         1
+         IC17     3        D5         1
+         IC4      4        A3         1
+         IC6      4        D2         2
+         IC7      9        D5         1
+         IC9      19       DQ5        1
+
+ID6      IC13     20       DQ6        1
+         IC14     2        D3         1
+         IC16     3        D6         1
+         IC17     37       D6         1
+         IC4      3        A2         1
+         IC6      6        D3         2
+         IC7      10       D6         1
+         IC9      20       DQ6        1
+
+ID7      IC13     21       DQ7        1
+         IC14     3        D4         1
+         IC16     4        D7         1
+         IC17     4        D7         1
+         IC4      2        A1         1
+         IC6      11       D4         2
+         IC7      13       D7         1
+         IC9      21       DQ7        1
+
+IEI      IC10     1        I/CLK      1
+         X1       80       USR8/IEI   1
+         X9       1        1          2
+
+IEO      IC10     4        I3         1
+         IC17     7        IEO        1
+         X1       79       USR4/IEO   1
+
+IIEI     IC16     13       IEI        1
+         X9       2        2          2
+
+IRDY     IC10     6        I5         1
+         IC8      17       I/O_4      1
+
+IRX      JP102    1        1          2
+         JP103    1        1          2
+         X10      2        2          2
+
+ITX      JP102    3        3          2
+         JP103    3        3          2
+         X7       2        2          2
+
+MA14     IC11     10       Q1         1
+         IC13     29       A14        1
+         IC9      3        A14        1
+         RN1      6        6          2
+
+MA15     IC11     9        Q2         1
+         IC13     3        A15        1
+         IC9      31       A15        1
+         RN1      5        5          2
+
+MA16     IC11     7        Q3         1
+         IC13     2        A16        1
+         IC9      2        A16        1
+         RN1      4        4          2
+
+MA17     IC11     6        Q4         1
+         IC13     30       A17        1
+         IC9      30       A17        1
+         RN1      2        2          2
+
+MA18     IC13     1        A18        1
+         IC14     10       Q1         1
+         IC9      1        A18        1
+         RN1      3        3          2
+
+MA19     IC10     12       I/O_1      1
+         IC14     9        Q2         1
+
+MA20     IC10     13       I/O_2      1
+         IC14     7        Q3         1
+
+N$1      IC5      3        X2         2
+         Y2       1        1          2
+
+N$2      IC16     11       IEO        1
+         IC17     6        IEI        1
+
+N$3      IC12     11       O          1
+         X3       1        1          1
+
+N$4      X4       1        1          2
+         Y1       5        CLK        2
+
+N$6      JP100    2        2          2
+         X14      3        3          2
+
+N$7      R8       2        2          2
+         X14      2        2          2
+
+N$8      R5       2        2          2
+         X10      1        1          2
+         X14      4        4          2
+
+N$11     R3       2        2          2
+         X14      5        5          2
+         X7       1        1          2
+
+N$12     R1       2        2          2
+         X14      6        6          2
+
+N$14     JP101    2        2          2
+         X8       3        3          2
+
+N$15     R9       2        2          2
+         X8       2        2          2
+
+N$17     R6       2        2          2
+         X10      3        3          2
+         X8       4        4          2
+
+N$18     IC5      2        X1         2
+         Y2       2        2          2
+
+N$19     R4       2        2          2
+         X7       3        3          2
+         X8       5        5          2
+
+N$20     R2       2        2          2
+         X8       6        6          2
+
+PG_RES   IC11     11       GR         1
+         IC14     11       GR         1
+         IC15     6        !Q         1
+
+RTC_CE   IC5      5        CE         2
+         IC6      2        Q1         2
+
+RTC_CLK  IC5      7        SCLK       2
+         IC6      7        Q3         2
+
+RTC_IN   IC12     5        I          2
+         IC6      10       Q4         2
+
+RTC_IO   IC12     2        I          2
+         IC12     6        O          2
+         IC5      6        I/O        2
+
+RTC_WE   IC12     4        OE         2
+         IC6      5        Q2         2
+
+RX       JP103    2        2          2
+         X1       71       RX         1
+
+RXDA     IC17     12       RXDA       1
+         R5       1        1          2
+
+RXDB     IC17     29       RXDB       1
+         R6       1        1          2
+
+TO0      IC16     7        ZC/TO0     1
+         X13      3        3          2
+
+TO1      IC16     8        ZC/TO1     1
+         X13      5        5          2
+
+TO2      IC16     9        ZC/TO2     1
+         X13      7        7          2
+
+TRG0     IC16     23       CLK/TRG0   1
+         X13      2        2          2
+
+TRG1     IC16     22       CLK/TRG1   1
+         X13      4        4          2
+
+TRG2     IC16     21       CLK/TRG2   1
+         X13      6        6          2
+
+TRG3     IC16     20       CLK/TRG3   1
+         X13      8        8          2
+
+TX       JP102    2        2          2
+         X1       69       TX         1
+
+TXDA     IC17     15       TXDA       1
+         R3       1        1          2
+
+TXDB     IC17     26       TXDB       1
+         R4       1        1          2
+
+VBAT     IC5      8        VCC1       2
+         U1       3        3          2
+
